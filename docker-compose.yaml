@@ -1,0 +1,22 @@
+
+services:
+  client:
+    build: ./client
+    container_name: client
+    cap_add:
+      - NET_ADMIN
+    networks:
+      - secure-net
+
+  server:
+    build: ./server
+    container_name: server
+    cap_add:
+      - NET_ADMIN
+    networks:
+      - secure-net
+
+networks:
+  secure-net:
+    driver: bridge
+
