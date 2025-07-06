@@ -1,4 +1,3 @@
-# progetto-sicurezza
 Progetto per l'esame di Sicurezza dell'informazione M
 realizzato da Cavazzana Damiano (n° matricola 0001191354)
 
