@@ -9,7 +9,7 @@ Questo progetto è stato realizzato per il corso di Sicurezza dell'Informazione 
 ## Struttura del progetto
 
 Tutti i componenti sono containerizzati tramite **Docker**.
-
+```bash
 progetto_sicurezza/
 ├── docker-compose.yml
 ├── client/
@@ -24,6 +24,7 @@ progetto_sicurezza/
 │   ├── server.crt
 │   ├── server.key
 │   └── server.py
+```
 
 ## Esecuzione
 Clonare il repository, spostarsi nella cartella e lanciare:
