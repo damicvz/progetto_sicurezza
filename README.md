@@ -56,7 +56,7 @@ openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out c
 
 ## Conclusione
 Tramite comunicazione TLS è possibile implementare il login passwordless:
-  - se c'è bisogno di credenziali
+  - non c'è bisogno di credenziali
   - l'identità è stabilita tramite certificati digitali
   - si ha mutua autenticazione
   - si ha inoltre tutto il traffico cifrato
